@@ -44,4 +44,29 @@
     position: absolute;
     left: 500px;
     top: 25px;
+    animation-name: bar-anim;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
 }
+
+@keyframes bar-anim {
+    from {
+    }
+    25% {
+        width: 100px;
+        height: 100px;
+    }
+    50% {
+        width: 150px;
+        height: 150px;
+    }
+    75% {
+        width: 100px;
+        height: 100px;
+    }
+    to {
+        width: 85px;
+        height: 85px;
+    }
+}
+
