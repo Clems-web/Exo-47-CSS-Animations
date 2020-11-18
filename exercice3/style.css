@@ -5,9 +5,33 @@
     background-color: red;
     animation-name: exercice3;
     animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes exercice3 {
-
-
+    0% {
+        background: red;
+        left: 0;
+        top: 0;
+    }
+    25% {
+        background: blue;
+        left: 0;
+        top: 200px;
+    }
+    50% {
+        background: green;
+        left: 200px;
+        top: 200px;
+    }
+    75%{
+        background: yellow;
+        left: 200px;
+        top: 0;
+    }
+    100% {
+        background: red;
+        left: 0;
+        top: 0;
+    }
 }
